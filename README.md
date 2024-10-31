@@ -1,8 +1,5 @@
-1)I have used the GitHub API to retrieve data on users located in Mumbai with over 50 followers, gathering detailed user and repository information including follower counts, repository languages, licenses, and account creation dates.
-Have calculated the results programatically using python in google colab and the also matched the result using the analysis of the csv created.
+1)I retrieved data on GitHub users in Mumbai with over 50 followers using the GitHub API, gathering details on follower counts, repository languages, licenses, and account creation dates. I calculated results programmatically in Python on Google Colab, verifying accuracy with CSV-based analysis.
 
-2)The most surprising insight is that the majority of developers with high followers and leader strength metrics often had shorter bios, contrary to the expectation that detailed bios attract more followers.
-I have found that the correlation between bio length and followers was low , indicating minimal impact of bio detail on follower count.
+2)The most surprising finding was that developers with high followers and leader strength often had shorter bios; a low correlation between bio length and followers indicated that bio details had minimal impact on follower count.
 
-To increase followers, developers should prioritize quality content in repositories—especially popular languages like Python or JavaScript—as our analysis shows higher stars and follower counts correlate with repository popularity, not necessarily bio length or personal details.
-Correlation between followers and public repositories was strong , showing that developers with more repositories tended to have higher follower counts.
+3)To increase followers, developers should focus on quality repository content, especially in popular languages like Python or JavaScript, as higher stars and follower counts correlate more strongly with repository popularity than bio details; notably, correlation between followers and public repositories was strong, with higher repository counts linked to more followers.
